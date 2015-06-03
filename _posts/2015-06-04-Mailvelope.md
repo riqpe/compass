@@ -1,7 +1,7 @@
 ---
 layout: post
-title: How to set up and use PGP encryption, the easy way
 ---
+###How to set up and use PGP encryption, the easy way
 
 First off some disclaimers here. The method explained below will only work on Google Chrome and Mozilla Firefox. It utilizes the [OpenPGP.js] library, which implements PGP in JavaScript. Much issues with such implementation has been raised, some of which can be solved by delivering it as a browser extension. Others still remain, and for perfect security, these implementations ought to be avoided.
 
