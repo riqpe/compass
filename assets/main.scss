@@ -128,10 +128,7 @@ footer {
 	.wrapper {
 		width: 680px;
 	}
-	.post-container {
-		width: 100%;
-	}
-
+	
 	/* the header column stays left and has a dynamic width with all contents
 	aligned right */
 	header {
@@ -148,7 +145,15 @@ footer {
 
 	main {
 		width: 46%;
-		margin-left: 27%;
+		margin-left: 54%;
 		padding: 0;
 	}
+	.post-container {
+		width: 100%;
+		margin-left: 27;
+	}
+	.post-title {
+		text-align: left;
+	}
+
 }
