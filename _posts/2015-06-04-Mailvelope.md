@@ -1,5 +1,6 @@
 ---
 layout: post
+title: How to set up and use PGP encryption on your browser
 ---
 ###How to set up and use PGP encryption on your browser
 
