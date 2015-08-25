@@ -119,6 +119,12 @@ footer {
 		width: 480px;
 		margin: 10% auto 0 auto;
 	}
+  .headerlinks {
+    display: none;
+  }
+  .contentlinks {
+    display: inherit;
+  }
 }
 
 /* All other devices (768px and up) */
@@ -148,4 +154,10 @@ footer {
 		margin-left: 54%;
 		padding: 0;
 	}
+  .headerlinks {
+    display: inherit;
+  }
+  .contentlinks {
+    display: none;
+  }
 }

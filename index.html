@@ -17,13 +17,14 @@ layout: base
         <div class="tagline-container"><p>{{ site.compass.tagline }}</p></div>
         {% endif %}
 
-        <div class="content"><p>{% include links.html %}</p></div>
+        <div class="content headerlinks"><p>{% include links.html %}</p></div>
     </header>
     <main>
       {% if site.compass.include_content %}
       <div class="content">
         {% include content.html %}
       </div>
+      <div class="content contentlinks"><p>{% include links.html %}</p></div>
       {% endif %}
     </main>
 </div>
