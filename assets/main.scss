@@ -134,7 +134,10 @@ footer {
 	.wrapper {
 		width: 680px;
 	}
-
+	.postwrapper {
+		width: 680px;
+	}
+	
 	/* the header column stays left and has a dynamic width with all contents
 	aligned right */
 	header {
@@ -160,4 +163,9 @@ footer {
   .contentlinks {
     display: none;
   }
+	.post {
+		width: 46%;
+		margin-left: 27%;
+		padding: 0;
+	}
 }
