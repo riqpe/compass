@@ -111,6 +111,13 @@ footer {
 	padding: 0 5px;
 }
 
+.headerlinks {
+  display: none;
+}
+.contentlinks {
+  display: inherit;
+}
+
 /*** media queries ***/
 
 /* X-Small devices (phones, 480px and up) */
@@ -120,12 +127,6 @@ footer {
 		width: 480px;
 		margin: 10% auto 0 auto;
 	}
-  .headerlinks {
-    display: none;
-  }
-  .contentlinks {
-    display: inherit;
-  }
 }
 
 /* All other devices (768px and up) */
