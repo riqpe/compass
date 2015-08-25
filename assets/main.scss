@@ -111,6 +111,7 @@ footer {
 	padding: 0 5px;
 }
 
+/*** media queries ***/
 /* All other devices (768px and up) */
 @media (min-width: 768px) {
 	/* past 768px the layout is changed and the wrapper has a fixed width of 680px
@@ -145,7 +146,7 @@ footer {
     display: inherit;
   }
   .contentlinks {
-    display: none;
+    display: hidden;
   }
 	.post {
 		width: 46%;
@@ -154,7 +155,6 @@ footer {
 	}
 }
 
-/*** media queries ***/
 /* X-Small devices (phones, 480px and up) */
 @media (min-width: 480px) {
 	/* wrapper stays 480px wide past 480px wide and is kept centered */
